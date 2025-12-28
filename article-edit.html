@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit Article | Open Encyclopedia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav">
+    <h1 class="logo">Open Encyclopedia</h1>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="articles.html">Articles</a></li>
+      <li><a href="users.html">Users</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+  <section>
+    <h2>Edit Article</h2>
+
+    <form class="form">
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title" value="HTML" required>
+      </div>
+
+      <div class="form-group">
+        <label for="summary">Summary</label>
+        <textarea id="summary" name="summary" rows="4" required>
+Markup language for creating web pages.
+        </textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="content">Content</label>
+        <textarea id="content" name="content" rows="8" required>
+HTML (HyperText Markup Language) is the standard markup language...
+        </textarea>
+      </div>
+
+      <button type="submit">Save</button>
+      <a href="articles.html">Cancel</a>
+    </form>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© 2025 Open Encyclopedia</p>
+</footer>
+
+</body>
+</html>
